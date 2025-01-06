@@ -1,0 +1,99 @@
+/* Contenedor padre con Flexbox */
+.padre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+}
+
+/* Contenedor hijo */
+.hijo-flex {
+    padding: 20px;
+    background-color: #d3d3d3;
+    border-radius: 5px;
+}
+
+/* Sección general */
+.seccion {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Fila dentro de sección */
+.fila {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #eaeaea;
+}
+
+/* Segunda fila con cajas */
+.fila-dos {
+    display: flex;
+    justify-content: space-around; /* Distribuye cajas uniformemente */
+    align-items: center;
+    padding: 10px;
+    gap: 10px; /* Espacio entre cajas */
+}
+
+.caja {
+    width: 100px;
+    height: 100px;
+    background-color: #c4c4c4;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+
+
+/* Padre */
+.padre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Hijo (que también es padre de 'nieto') */
+.hijo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3d3d3;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Nieto */
+.nieto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c4c4c4;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Bisnieto */
+.bisnieto {
+    background-color: #a4a4a4;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}

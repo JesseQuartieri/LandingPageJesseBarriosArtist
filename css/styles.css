@@ -1,0 +1,451 @@
+
+
+/*------------------Headers---------------------------------------------------------------------------------------*/
+
+.cabeza {
+    display: flex;
+    min-height: 80px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.rectangle {
+    width: 5px;
+    height: 20px;
+}
+
+.logo { 
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    margin: 10px;
+    /*Texto*/
+    font-family:"Montserrat", serif;
+    font-style: italic;
+    font-weight: 100;
+    color: white;
+}
+
+
+
+
+.logo img {
+    height: 100px;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+
+
+.navegador {
+    display: flex;
+    font-family: "Jura", serif;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.nav-link { 
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+
+
+nav a:hover {
+    color: #E1FF00;
+}
+
+@media (max-with:700px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        padding: 10px 0px;
+    }
+}
+/*------------------/Headers---------------------------------------------------------------------------------------*/
+
+
+
+
+/*------------------Index---------------------------------------------------------------------------------------*/
+    .principal {
+        display: flex;
+        
+    }   
+    
+    .profile-pic {
+        width: 250px;
+        height: 250px;
+        margin: 50px;
+        margin-top: 70px ;
+        box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+    }
+
+    .hola {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 36px;
+        width: 900px;
+        font-family:"Montserrat", serif;
+        margin-top: 30px;
+        margin-left: 20px;
+
+    }
+
+    .cuento {
+        display: flex;
+        background-color: #D9D9D950;
+        width: 900px;
+        height: 150px;
+        font-size: 22px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        font-family:sans-serif;
+    }
+
+    p {
+        padding: 20px;
+    }
+
+    .text-container {
+        
+        width: 800px;
+        height: 300px;
+    }
+
+
+    .black-line {
+        background-image: url("/assets/images/Black_Line.jpg");
+        background-color: black;
+        width: 100vw;
+        height: 20px;
+    }
+
+
+
+    .seccion {
+        display: flex;
+        flex-direction: column;
+        background-color: #D9D9D950;
+        width: 1250px;
+        height: 320px;
+        font-size: 25px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 50px;
+    }
+   
+    .me-apasiona, .mis-habilidades {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 25px;
+        font-family:sans-serif;
+    }
+    
+    
+    .herramientas {
+        text-align: center;
+        font-size: 50px;
+        font-family:Verdana,Tahoma, sans-serif;
+        margin: 50px;
+    }
+
+
+    .programas {
+        margin: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 1300px;
+        height: 500px;
+        padding: 0;
+        margin: 0 auto;
+        box-sizing: border-box;
+        
+    }
+
+    
+    .premier, .substances, .blender, .marvel, .zbrush, .clip, .id, .marmoset, .maya, .unreal {
+        width: 250px;
+        height: 250px;
+        margin: 0px;
+        padding: 0px;
+    }
+               
+     .wave {
+        width:  100vw;
+        height: 200px;
+        margin-top: 200px;
+        margin-bottom: 0px;
+        padding:0px;
+        padding-bottom: 0px;
+        display: block;
+     }         
+/*------------------/Index---------------------------------------------------------------------------------------*/
+
+
+
+
+/*------------------Galerias---------------------------------------------------------------------------------------*/
+
+  .cuerpo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.galeria-photos {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 10px; 
+    margin: 0px;
+    margin-top: 70px;
+    width: 90vw;
+    padding: 10px; 
+}
+
+.galeria-photos img {
+    width: 400px; 
+    height: 300px; 
+    object-fit: cover;
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.galeria-photos .yoda, .galeria-photos .opps {
+    width: 810px; 
+    height: 300px;
+}
+
+
+.artstation-container {   /*Este es independiente de cuerpo y todo lo que este dentro se puede centrar*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.artstation {
+    max-width: 200px;
+    height: auto;
+}
+
+
+
+.black-line2 {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    width: 100vw;           
+    height: 60px;
+    background-color: black;
+}
+
+.Para-mas {
+    color: white;
+    font-size: 30px;
+    text-align: center; 
+}
+
+.artstation {
+    display: flex;
+    justify-content: center; 
+    margin-top: 120px;
+}
+
+
+
+
+
+/*------------------/Galerias---------------------------------------------------------------------------------------*/
+    
+/*------------------Contacto---------------------------------------------------------------------------------------*/
+
+.contacto-tienes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 115px;
+    margin-top: 115px;
+}
+
+.contacto {
+    color: black;
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 25px;
+}
+
+.tienes {
+    
+    color: white;
+    background-color: black;
+    font-size: 40px;
+
+}
+
+
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+
+
+.apps-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.apps img {
+    max-width: 200px;
+    height: auto;
+}
+
+
+
+
+.form-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 50px;
+    
+}
+
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 80vw; 
+    background: none; 
+    font-family:'Courier New', Courier, monospace
+}
+
+
+.contact-form label {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+.contact-form input, .contact-form textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+
+.mmensaje {
+    width: 80%;
+    height: 500px;
+}
+
+
+.submit-button {
+    padding: 10px;
+    background-color: #4a4a4a; 
+    color: #fff;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    margin-bottom: 75px;
+    width: 80%;
+    height: 50px;
+}
+
+
+.submit-button:hover {
+    background-color: #E1FF00; 
+}
+
+
+/*------------------/Contacto---------------------------------------------------------------------------------------*/
+
+/*------------------Footer---------------------------------------------------------------------------------------*/
+          
+.footer {
+    background-color: black; 
+    color: #fff; 
+    text-align: center; 
+    padding: 10px 20px; 
+    font-family: Arial, sans-serif; 
+    font-size: 20px; 
+    margin: 0%;
+  }
+  
+  .footer .social-links {
+    margin-top: 5px; 
+  }
+  
+  .footer .social-links a {
+    color: #fff; 
+    text-decoration: none; 
+    margin: 0 10px; 
+    transition: color 0.3s ease; 
+  }
+  
+  .footer .social-links a:hover {
+    color: #E1FF00;
+  }  
+/*------------------/Footer---------------------------------------------------------------------------------------*/
+
+
+
+    body {
+        background-image: url("/assets/images/background_90.jpg"); 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        background-position: center;
+    }
+    
+    body {
+        margin: 0;
+        padding:0;
+        overflow-x: hidden;
+    }
+
+
+    
+
+
+ 
